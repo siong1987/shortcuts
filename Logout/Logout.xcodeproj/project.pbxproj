@@ -162,6 +162,7 @@
 				TargetAttributes = {
 					88959A0719F2F62600178D5D = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = UPETBWQE65;
 					};
 					88959A1A19F2F62600178D5D = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Logout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -338,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Logout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -400,6 +403,7 @@
 				88959A2719F2F62600178D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88959A2819F2F62600178D5D /* Build configuration list for PBXNativeTarget "LogoutTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +412,7 @@
 				88959A2A19F2F62600178D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

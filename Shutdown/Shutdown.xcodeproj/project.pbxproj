@@ -162,6 +162,7 @@
 				TargetAttributes = {
 					88E7CB0F19F2F748001FEB19 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = UPETBWQE65;
 					};
 					88E7CB2219F2F748001FEB19 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Shutdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -338,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Shutdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -400,6 +403,7 @@
 				88E7CB2F19F2F748001FEB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E7CB3019F2F748001FEB19 /* Build configuration list for PBXNativeTarget "ShutdownTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +412,7 @@
 				88E7CB3219F2F748001FEB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
