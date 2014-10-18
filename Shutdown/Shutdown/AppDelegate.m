@@ -7,20 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "MDRestartShutdownLogout.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  // Insert code here to initialize your application
-}
+  MDSendAppleEventToSystemProcess(kAEShutDown);
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-  // Insert code here to tear down your application
+  // Quit the app
+  [[NSApplication sharedApplication] terminate:nil];
 }
 
 @end

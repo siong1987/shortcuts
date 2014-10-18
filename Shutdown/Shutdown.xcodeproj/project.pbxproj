@@ -35,6 +35,7 @@
 		88E7CB2319F2F748001FEB19 /* ShutdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E7CB2819F2F748001FEB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E7CB2919F2F748001FEB19 /* ShutdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutdownTests.m; sourceTree = "<group>"; };
+		88E7CB3319F2F76C001FEB19 /* MDRestartShutdownLogout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDRestartShutdownLogout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 			children = (
 				88E7CB1719F2F748001FEB19 /* AppDelegate.h */,
 				88E7CB1819F2F748001FEB19 /* AppDelegate.m */,
+				88E7CB3319F2F76C001FEB19 /* MDRestartShutdownLogout.h */,
 				88E7CB1A19F2F748001FEB19 /* Images.xcassets */,
 				88E7CB1C19F2F748001FEB19 /* MainMenu.xib */,
 				88E7CB1319F2F748001FEB19 /* Supporting Files */,

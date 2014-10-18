@@ -5,7 +5,7 @@
 /*
  *    kAERestart        will cause system to restart
  *    kAEShutDown       will cause system to shutdown
- *    kAEReallyLogout   will cause system to logout
+ *    kAEReallyLogOut   will cause system to logout
  *    kAESleep          will cause system to sleep
  */
 OSStatus MDSendAppleEventToSystemProcess(AEEventID eventToSendID) {
