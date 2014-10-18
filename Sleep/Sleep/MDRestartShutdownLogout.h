@@ -1,3 +1,5 @@
+// ref: http://stackoverflow.com/questions/6103962/perform-certain-system-events-mac-os-x/6105338#6105338
+
 #import <CoreServices/CoreServices.h>
 
 /*
