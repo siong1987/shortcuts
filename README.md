@@ -16,6 +16,13 @@ you can perform these simple events easily.
 2. Decompress the release folder and copy the apps to your Applications folder.
 3. Try it in Spotlight: Sleep, Logout, Restart, and Shutdown.
 
+## TODOS
+
+- [ ] Empty Trash
+- [ ] Securely Empty Trash
+
+Let me know what you want to see here.
+
 ## Thanks
 
 * App icons designed by [Richard Schumann](http://www.thenounproject.com/schumanncombo) from the [Noun Project](http://www.thenounproject.com).
