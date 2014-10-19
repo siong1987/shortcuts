@@ -19,6 +19,7 @@ you can perform these simple events easily.
 ## Thanks
 
 * App icons designed by [Richard Schumann](http://www.thenounproject.com/schumanncombo) from the [Noun Project](http://www.thenounproject.com).
+* [NSGod](http://stackoverflow.com/users/277952/nsgod) on [stackoverflow](http://stackoverflow.com/questions/6103962/perform-certain-system-events-mac-os-x/6105338#6105338).
 
 ## Licence
 
