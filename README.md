@@ -8,4 +8,4 @@ shutdown.
 With the new Spotlight in Yosemite, if you have these apps installed,
 you can perform these simple events easily.
 
-SCREENSHOT HERE
+![example](https://raw.githubusercontent.com/siong1987/system/master/examples/system.gif)
