@@ -1,6 +1,6 @@
 # Restart/Sleep/Logout/Shutdown/Lock
 
-4 simple apps that serve 5 simple purposes: restart, sleep, logout,
+5 simple apps that serve 5 simple purposes: restart, sleep, logout,
 shutdown, lock.
 
 ## Why?
