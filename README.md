@@ -1,7 +1,7 @@
-# Restart/Sleep/Logout/Shutdown
+# Restart/Sleep/Logout/Shutdown/Lock
 
-4 simple apps that serve 4 simple purposes: restart, sleep, logout,
-shutdown.
+4 simple apps that serve 5 simple purposes: restart, sleep, logout,
+shutdown, lock.
 
 ## Why?
 
@@ -14,7 +14,7 @@ you can perform these simple events easily.
 
 1. Download the release zip from [here](https://github.com/siong1987/system/releases/tag/1.0.0).
 2. Decompress the release folder and copy the apps to your Applications folder.
-3. Try it in Spotlight: Sleep, Logout, Restart, and Shutdown.
+3. Try it in Spotlight: Sleep, Logout, Restart, Lock, and Shutdown.
 
 ## TODOS
 
