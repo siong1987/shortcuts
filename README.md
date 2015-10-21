@@ -1,12 +1,11 @@
 # Restart/Sleep/Logout/Shutdown/Lock
 
-5 simple apps that serve 5 simple purposes: restart, sleep, logout,
+Five simple apps - that serve five simple purposes: restart, sleep, logout,
 shutdown, lock.
 
 ## Why?
 
-With the new Spotlight in Yosemite, if you have these apps installed,
-you can perform these simple events easily.
+Once you have these apps installed locally, simply invoke spotlight (usually <kbd>command</kbd> `+` <kbd>space</kbd>), and start typing the name of one of these 5 "apps" / functions that you want to perform. Easy.
 
 ![example](https://raw.githubusercontent.com/siong1987/system/master/examples/system.gif)
 
@@ -16,7 +15,11 @@ you can perform these simple events easily.
 2. Decompress the release folder and copy the apps to your Applications folder.
 3. Try it in Spotlight: Sleep, Logout, Restart, Lock, and Shutdown.
 
-## TODOS
+## Build from source
+
+`make`
+
+## To-Dos
 
 - [ ] Empty Trash
 - [ ] Securely Empty Trash
