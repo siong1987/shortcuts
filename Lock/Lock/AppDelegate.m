@@ -15,7 +15,8 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  [[ScreenSaverController controller] screenSaverStartNow];
+  NSAppleScript *lockScript = [[NSAppleScript alloc] initWithSource:@"activate application \"ScreenSaverEngine\""];
+  [lockScript executeAndReturnError:nil];
 
   // Quit the app
   [[NSApplication sharedApplication] terminate:nil];

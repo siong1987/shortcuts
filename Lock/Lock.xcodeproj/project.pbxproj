@@ -12,7 +12,6 @@
 		88314F531A1CC71E00C7A348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88314F521A1CC71E00C7A348 /* Images.xcassets */; };
 		88314F561A1CC71E00C7A348 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88314F541A1CC71E00C7A348 /* MainMenu.xib */; };
 		88314F621A1CC71E00C7A348 /* LockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88314F611A1CC71E00C7A348 /* LockTests.m */; };
-		88314F6C1A1CC77200C7A348 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88314F6B1A1CC77200C7A348 /* ScreenSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		88314F5B1A1CC71E00C7A348 /* LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88314F601A1CC71E00C7A348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88314F611A1CC71E00C7A348 /* LockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockTests.m; sourceTree = "<group>"; };
-		88314F6B1A1CC77200C7A348 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88314F6C1A1CC77200C7A348 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +58,6 @@
 		88314F3F1A1CC71E00C7A348 = {
 			isa = PBXGroup;
 			children = (
-				88314F6B1A1CC77200C7A348 /* ScreenSaver.framework */,
 				88314F4A1A1CC71E00C7A348 /* Lock */,
 				88314F5E1A1CC71E00C7A348 /* LockTests */,
 				88314F491A1CC71E00C7A348 /* Products */,
@@ -165,6 +161,7 @@
 					88314F471A1CC71E00C7A348 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = UPETBWQE65;
+						ProvisioningStyle = Automatic;
 					};
 					88314F5A1A1CC71E00C7A348 = {
 						CreatedOnToolsVersion = 6.1;
@@ -330,11 +327,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPETBWQE65;
 				INFOPLIST_FILE = Lock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -342,11 +342,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPETBWQE65;
 				INFOPLIST_FILE = Lock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -405,6 +408,7 @@
 				88314F671A1CC71E00C7A348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88314F681A1CC71E00C7A348 /* Build configuration list for PBXNativeTarget "LockTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +417,7 @@
 				88314F6A1A1CC71E00C7A348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

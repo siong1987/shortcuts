@@ -10,13 +10,4 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-
-@end
-
-// ref: http://stackoverflow.com/questions/11609751/osx-lion-bug-desktop-may-become-unusable-when-launching-screensaver-programmati/11626752#11626752
-@interface ScreenSaverController : NSObject + controller;
-@end
-
-@protocol ScreenSaverControl
-- (void)screenSaverStartNow;
 @end
