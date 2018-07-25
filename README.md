@@ -11,7 +11,7 @@ Once you have these apps installed locally, simply invoke spotlight (usually <kb
 
 ## Installation
 
-1. Download the release zip from [here](https://github.com/siong1987/system/releases/tag/1.0.0).
+1. Download the release zip from [here](https://github.com/siong1987/system/releases/tag/1.0.1).
 2. Decompress the release folder and copy the apps to your Applications folder.
 3. Try it in Spotlight: Sleep, Logout, Restart, Lock, and Shutdown.
 
